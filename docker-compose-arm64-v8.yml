@@ -4,3 +4,4 @@ services:
     container_name: cli-gd
     build: .
     image: php81-cli-gd
+    platform: linux/arm64/v8
