@@ -3,5 +3,5 @@ services:
   php81:
     container_name: cli-gd
     build: .
-    image: php81-cli-gd
+    image: php82-cli-gd
     platform: linux/amd64

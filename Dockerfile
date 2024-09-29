@@ -1,4 +1,4 @@
-FROM php:8.1-cli AS composer-env
+FROM php:8.2-cli AS composer-env
 WORKDIR /work
 ### GDインストール
 RUN apt-get update &&\
