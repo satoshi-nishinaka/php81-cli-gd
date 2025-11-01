@@ -1,7 +1,7 @@
 version: '3'
 services:
-  php81:
-    container_name: cli-gd
+  php82:
+    container_name: php82-cli-gd
     build: .
     image: php82-cli-gd
     platform: linux/arm64/v8
