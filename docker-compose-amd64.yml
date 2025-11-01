@@ -1,7 +1,7 @@
 version: '3'
 services:
   php81:
-    container_name: cli-gd
+    container_name: php-cli-gd
     build: .
-    image: php81-cli-gd
+    image: php-cli-gd:8.1
     platform: linux/amd64
